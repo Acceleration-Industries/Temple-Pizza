@@ -1,0 +1,265 @@
+body, h1, h2, h3, p, .navbar-nav .nav-link, .card-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Clunk', sans-serif;
+    color: #fff;
+    position: center;
+    display: block;
+    block-size: 90%;
+    scroll-margin-block-end: 10%;
+}
+body {
+    font-family: 'Clunk', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+}
+h1, h2, h3, p, .navbar-nav .nav-link, .card-text {
+    margin: 0;
+    padding: 0;
+    font-size:larger;
+
+}
+
+body {
+    background-color: black;
+}
+
+.navwrap .navbar {
+    background-color: black;
+    border-bottom: 2px solid #fff;
+}
+.header-cta {
+    background-image: url('../photos/restaurant.png');
+    background-attachment: inherit;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scrollable-dropdown {
+    max-height: 400px;
+    overflow-y: auto;
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    border-radius: .25rem;
+}
+
+.card .card-body {
+    background-color: #1b1a1a;
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+
+.btn-primary {
+    background-color: #d9534f;
+    border: none;
+}
+
+
+@media (max-width: 992px) {
+    .header-cta {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-deck {
+        display: block;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+    }
+}
+.header-cta .display-4 {
+    text-align: center;
+    text-shadow: 0 0 8px #8B0000;
+}
+.header-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 0 0 8px #8B0000;
+    background-color: black;
+    color: white;
+}
+
+.header-cta h1 {
+    text-shadow: 0 0 8px #8B0000;
+}
+
+.card-body  {
+    text-align: center;
+    justify-content: center;
+}
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.promotion-section, .promo-text, .feature-cards .card {
+    background-color: #1a1a1a;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.feature-cards .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navwrap .navbar {
+    background-color: black;
+    border-bottom: 2px solid #fff; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.dropdown-menu {
+    margin-left: -200px;
+    background: black;
+    border: 1px solid red;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #5c0b08;
+    color: #fff;
+}
+
+
+.scrollable-dropdown::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+
+.btn-primary {
+    background-color: #680603;
+}
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+    border: white;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+.card .card-body {
+    background-color: #1b1a1a;
+}
+
+
+.navwrap .navbar, .navbar-dark .bg-dark {
+    background-color: black !important;
+    border-bottom: 2px solid #fff;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navwrap .navbar .dropdown-menu {
+    background-color: black;
+    border: 1px solid #680603;
+}
+
+.navwrap .navbar .dropdown-item {
+    color: #fff;
+}
+
+.navwrap .navbar .dropdown-item:hover, .navwrap .navbar .dropdown-item:focus {
+    background-color: #680603;
+    color: #fff;
+}
+
+.scrollable-dropdown::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-thumb {
+    background: #680603;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.btn-primary {
+    background-color: #680603;
+    border-color: #680603;
+}
+
+.card .card-body {
+    background-color: #1b1a1a;
+    color: #fff;
+}
+
+.footie {
+    font-family: 'BonteDivine', sans-serif!important;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #fff;
+}
